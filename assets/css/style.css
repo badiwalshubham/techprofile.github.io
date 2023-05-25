@@ -545,6 +545,7 @@ main {
   font-size: var(--fs-6);
   font-weight: var(--fw-3);
   line-height: 1.6;
+  text-align:justify !important;
 }
 
 
@@ -1225,6 +1226,17 @@ textarea.form-input::-webkit-resizer { display: none; }
  * responsive larger than 450px screen
  */
 
+ @media (min-width: 310px)  {
+  
+  .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
+ }
+
 @media (min-width: 450px) {
 
   /**
@@ -1233,7 +1245,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .clients-item { min-width: calc(33.33% - 10px); }
 
-
+  .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
 
   /**
    * #PORTFOLIO, BLOG 
@@ -1275,7 +1293,13 @@ textarea.form-input::-webkit-resizer { display: none; }
   }
 
 
-
+  .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
   /**
    * #REUSED STYLE
    */
@@ -1551,7 +1575,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .has-scrollbar::-webkit-scrollbar-button { width: 100px; }
 
-
+  .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
 
   /**
    * SIDEBAR
@@ -1659,7 +1689,13 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   }
 
-
+  .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
 
   /**
    * REUSED STYLE
@@ -1761,6 +1797,14 @@ textarea.form-input::-webkit-resizer { display: none; }
   /**
    * RESET
    */
+
+   .service-item-text {
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-3);
+    line-height: 1.6;
+    text-align:left !important;
+  }
 
   body::-webkit-scrollbar { width: 20px; }
 
